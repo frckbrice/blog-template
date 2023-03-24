@@ -38,7 +38,6 @@ strong {
 .title {
   text-align: center;
   margin: 40px 0 0;
-  background-color: red;
 }
 
 .title-head {
@@ -73,7 +72,6 @@ p span {
   display: flex;
   padding: 5px 10px;
   column-gap: 15px;
-  background-color: darkgreen;
 }
 
 .col1 {
@@ -369,7 +367,7 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1360px){
+@media screen and (min-width: 1360px) {
   .col2,
   .col1 {
     max-width: 1360px !important;
