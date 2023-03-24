@@ -38,7 +38,6 @@ strong {
 .title {
   text-align: center;
   margin: 40px 0 0;
-  background-color: red;
 }
 
 .title-head {
@@ -73,7 +72,6 @@ p span {
   display: flex;
   padding: 5px 10px;
   column-gap: 15px;
-  background-color: darkgreen;
 }
 
 .col1 {
@@ -133,7 +131,6 @@ p span {
 .read-btn {
   border: 1px solid lightgray;
   padding: 12px 24px;
-  font-weight: bold;
   background: #fff;
   margin: 30px 0 15px;
   cursor: pointer;
@@ -192,6 +189,11 @@ p span {
   font-weight: 500;
 }
 
+footer p {
+  margin-top: 50px;
+  color: #fff;
+}
+
 .avatar-desc p {
   font-size: 15px;
   font-weight: 400;
@@ -202,7 +204,7 @@ p span {
   color: #000;
   padding: 0;
   margin: 0 0 10px;
-  box-shadow: 100x 100px 130px 150px blue;
+  box-shadow: 100px 100px 130px 150px blue;
 }
 
 .div2 h1 {
@@ -302,11 +304,6 @@ footer {
   margin-top: 15px;
 }
 
-footer p {
-  margin-top: 50px;
-  color: #fff;
-}
-
 .preview {
   color: #fff;
   font-size: 15px;
@@ -369,7 +366,7 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1360px){
+@media screen and (min-width: 1360px) {
   .col2,
   .col1 {
     max-width: 1360px !important;
