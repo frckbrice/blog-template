@@ -10,6 +10,8 @@ body {
   color: #000;
   line-height: 1.5;
   background-color: #f1f1f1;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 h1,
@@ -38,7 +40,6 @@ strong {
 .title {
   text-align: center;
   margin: 40px 0 0;
-  background-color: red;
 }
 
 .title-head {
@@ -73,7 +74,6 @@ p span {
   display: flex;
   padding: 5px 10px;
   column-gap: 15px;
-  background-color: darkgreen;
 }
 
 .col1 {
@@ -81,12 +81,19 @@ p span {
   margin: 0;
 }
 
+.boxshadow1,
+.boxshadow2,
+.boxshadow4,
+.boxshadow-b,
+.boxshadow-w {
+  box-shadow: 2px 3px 5px 3px rgb(0 0 0 / 20%);
+}
+
 .bridge-box,
 .woods-box {
   background-color: #fff;
   margin: 0 5px;
   padding: 0;
-  box-shadow: rgba(17 12 46 / 15%) 0 48px 100px 0;
 }
 
 .bridge-head,
@@ -133,7 +140,6 @@ p span {
 .read-btn {
   border: 1px solid lightgray;
   padding: 12px 24px;
-  font-weight: bold;
   background: #fff;
   margin: 30px 0 15px;
   cursor: pointer;
@@ -152,7 +158,7 @@ p span {
 }
 
 .col2 {
-  margin: 0 15px;
+  margin: 0 auto;
   width: 35%;
 }
 
@@ -161,7 +167,6 @@ p span {
   color: #000;
   padding: 0;
   margin: 0 0 15px;
-  box-shadow: rgba(17 12 46 / 15%) 0 48px 100px 0;
 }
 
 .div1-img {
@@ -192,6 +197,11 @@ p span {
   font-weight: 500;
 }
 
+footer p {
+  margin-top: 50px;
+  color: #fff;
+}
+
 .avatar-desc p {
   font-size: 15px;
   font-weight: 400;
@@ -202,7 +212,6 @@ p span {
   color: #000;
   padding: 0;
   margin: 0 0 10px;
-  box-shadow: 100x 100px 130px 150px blue;
 }
 
 .div2 h1 {
@@ -230,7 +239,7 @@ p span {
 .subdiv21 img {
   width: 50px;
   height: 50px;
-  margin: 10px 6px 0;
+  margin: 0 6px;
 }
 
 .tit-desc {
@@ -254,7 +263,6 @@ p span {
   color: #000;
   padding: 0;
   margin: 0 0 60px;
-  box-shadow: rgba(17 12 46 / 15%) 0 48px 100px 0;
 }
 
 .div4 h1 {
@@ -299,12 +307,7 @@ footer {
   height: 160px;
   padding: 32px;
   width: 100%;
-  margin-top: 15px;
-}
-
-footer p {
-  margin-top: 50px;
-  color: #fff;
+  margin-top: 40px;
 }
 
 .preview {
@@ -369,10 +372,10 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1360px){
+@media screen and (min-width: 1360px) {
   .col2,
   .col1 {
     max-width: 1360px !important;
-    margin: auto;
+    margin: 0;
   }
 }
