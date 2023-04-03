@@ -12,6 +12,8 @@ body {
   background-color: #f1f1f1;
   max-width: 1400px;
   margin: 0 auto;
+
+  background-color: brown;
 }
 
 h1,
@@ -376,6 +378,6 @@ footer {
   .col2,
   .col1 {
     max-width: 1360px !important;
-    margin: auto;
+    margin: 0;
   }
 }
